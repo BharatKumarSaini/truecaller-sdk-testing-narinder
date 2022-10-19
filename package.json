@@ -1,0 +1,19 @@
+{
+  "name": "truecaller-sdk-testing-narinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "aws-sdk": "^2.1235.0",
+    "dotenv": "^16.0.3"
+  }
+}
