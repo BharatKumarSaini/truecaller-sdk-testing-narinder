@@ -1,17 +1,9 @@
 import express from 'express'
 const router = express.Router();
-const { body, validationResult } = require("express-validator");
 const User = require("../models/User");
-const bcrypt = require("bcryptjs");
+
 const jwt = require("jsonwebtoken");
 
-/*
-    @usage : Register a User
-    @url : /api/users/register
-    @fields : name , email , password
-    @method : POST
-    @access : PUBLIC
- */
 
 /*
     @usage : Login a User
